@@ -15,26 +15,16 @@ sidebar: false
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx11111
+1. Ziraat Bankasi A.S., Assistant IT Auditor, 2014-2016
 
-2.  Firm yyy, position yyy, year yyy
+2. Ministry of Trade, Engineer, 2016-2018
 
-## Internships
+3. Presidency Of Strategy and Budget, Specialist, 2018-Ongoing
 
-1.  Firm aaa, position xx, year xxx
 
-2.  Firm bbb, position yyy, year yyy
-
-# Projects
-
-1.  TUBİTAK 1001..........................
-
-# Publications
-
-1.  ....
 
 # Competencies
 
-R, Quarto, Git, Python
+SQL, R, Quarto, Git, Python
 
 # Hobbies
