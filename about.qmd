@@ -3,28 +3,33 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](assets/images/vesikalik.jpeg){fig-align="center"}
+[Download CV](assets/PDF/MkoctepeCV.pdf)
+
+![](assets/images/vesikalik.jpeg){fig-align="left"}  
 
 # Education
 
--   B.S., Industrial Engineering Gazi University, Turkey, 2008 - 2013.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
+-   B.S., [Industrial Engineering, Gazi University](https://mf-em.gazi.edu.tr/view/SetCulture?language=en-US), Turkey, 2008 - 2013.
+-   M.S., [Industrial Engineering, Hacettepe University](https://ie.hacettepe.edu.tr/index.php?lang=en), Turkey, 2022 - ongoing.
 
 
 # Work Experience
 
 ## Employements
 
-1. Ziraat Bankasi A.S., Assistant IT Auditor, 2014-2016
+1. [Ziraat Bankasi A.S.](https://www.ziraatbank.com.tr/tr/bankamiz), Assistant IT Auditor, 2014-2016
 
-2. Ministry of Trade, Engineer, 2016-2018
+2. [Ministry of Trade](https://ticaret.gov.tr), Engineer, 2016-2018
 
-3. Presidency Of Strategy and Budget, Specialist, 2018-Ongoing
+3. [Presidency Of Strategy and Budget](https://www.sbb.gov.tr/), Specialist, 2018-Ongoing
 
 
 
 # Competencies
 
-SQL, R, Quarto, Git, Python
+SQL, R, Matlab, Quarto, Git, Python
 
 # Hobbies
+
+History, Programming
+
