@@ -1,6 +1,8 @@
 ---
 title: "Assignment 1"
+highlight-style: arrow-dark
 ---
+
 
 # Assignment 1
 
@@ -13,3 +15,52 @@ My first assignment has two parts.
 ## (a)
 
 ## (b)
+
+-
+```{r}
+
+custom_function <- function(data){
+  if(!is.vector(data)){
+    print("Girdi vektor olmalidir.")}
+  else {
+    average<-mean(data)
+    max<-max(data)
+    min<-min(data)
+    sd<-sd(data)
+    data_list <- list(avg=average,max=max,min=min,sd=sd)
+    return(data_list)}
+}
+
+
+for (i in colnames(mtcars) ){
+  cars_attributes <- c(mtcars[[i]])
+  result1<-custom_function(cars_attributes)
+  result2<-paste(i,names(result1),result1)
+  print(result2)
+}
+
+
+```
+
+
+-
+```{r}
+custom_function <- function(data){
+  if(!is.vector(data)){
+    print("Girdi vektor olmalidir.")}
+  else {
+    average<-mean(data)
+    max<-max(data)
+    min<-min(data)
+    sd<-sd(data)
+    data_list <- list(avg=average,max=max,min=min,sd=sd)
+    return(data_list)}
+}
+print(apply(mtcars,2,custom_function))
+
+
+
+  
+```
+
+## (c)

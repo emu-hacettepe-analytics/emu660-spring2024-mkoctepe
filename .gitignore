@@ -3,5 +3,6 @@
 .RData
 .Ruserdata
 CVPDF.qmd
+TestScripts.R
 
 /.quarto/
