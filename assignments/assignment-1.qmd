@@ -64,3 +64,21 @@ print(apply(mtcars,2,custom_function))
 ```
 
 ## (c)
+
+
+```{r}
+
+library(dslabs)
+na_example
+Na_count<-sum(is.na(na_example))
+Na_count
+
+data_na <- replace(na_example, is.na(na_example), 660)
+data_na
+Na_count2<-sum(is.na(data_na))
+Na_count2
+
+count_660 <- sum(data_na==660)
+count_660
+
+```

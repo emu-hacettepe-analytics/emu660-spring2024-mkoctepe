@@ -27,7 +27,7 @@ sidebar: false
 
 # Competencies
 
-SQL, R, Matlab, Quarto, Git, Python
+SQL, R, Matlab, Quarto, Git, Python, SPSS, Minitab, MS Office
 
 # Hobbies
 
