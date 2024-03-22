@@ -1,22 +1,32 @@
 ---
 title: "Assignment 1"
 highlight-style: arrow-dark
+
 ---
 
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
-
-My first assignment has two parts.
+My first assignment has three parts.
 
 ## (a)
 
+
+['Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Cem Vardar & Erdi Dasdemir'](https://www.youtube.com/watch?v=Fi8-phj1X1A)
+
+Yukarıda linki de verilen "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Cem Vardar & Erdi Dasdemir" isimli video da Cem Vardar ve Erdi Daşdemir izleyicilerin de dahil olduğu interaktif bir sohbet gerçekleştirmektedir. Problem çözme, mühendislik, endüstri mühendisliği ve veri bilimi geniş bir çerçeveden tanımlanmakta ve aralarındaki ilişki irdelenmektedir.
+
+Devamında oldukça geniş bir alan olan veri bilimi çok yönlü şekilde incelenmektedir. Veri biliminin alt dalları, bu dallarda yoğun olarak yapılan işler, kullanılan araçlar tartışılmaktadır. Sonrasında gerçek hayattan örnekler verilerek bir şirkette veri bilimi konusunda yapılan çalışmalar detaylı şekilde anlatılmaktadır. 
+
+Bu anlatımlar esnasında veri biliminde yoğun şekilde kullanılan araçlar ana hatları ile tanıtılmakta ve önemli görülenler için izleyicilere öneriler verilmektedir. 
+
+Ayrıca veri bilimi alanında kariyer yapmak isteyenlerin yararlanması için veri bilimi alanında çalışacaklar için gerekli nitelikler detaylı bir şekilde sunulmaktadır. 
+
+Son kısımda ise veri biliminin özellikle teknik gereksinimleri (uygulamalar, programlama dilleri, veritabanları, görselleştirme araçlar vb.) üzerine bilgiler sunulmaktadır. Araçların fazlalığından kaynaklı olarak tümünün öğrenilmesindeki zorluk ve odaklanılması gereken araçların seçiminde hangi kriterlere göre karar verilmesine ilişkin öneriler sunulmaktadır. 
+
 ## (b)
 
--
+-  Aşağıda bir vektörü girdi alıp vektöre ilişkin temel istatistikleri hesaplayan bir fonksiyon tanımlanmıştır. Bu fonksiyon mtcars tablosunun sütunlarına for döngüsü kullanılarak uygulanmış ve sonuçlar gösterilmiştir.
 ```{r}
 
 custom_function <- function(data){
@@ -43,7 +53,8 @@ for (i in colnames(mtcars) ){
 ```
 
 
--
+- Yukarıda for döngüsü ile tablonun sütunlarına uygulanan fonksiyon "apply" fonksiyonu ile uygulanmış (çok daha kısa bir şekilde) ve sonuçlar gösterilmiştir. 
+
 ```{r}
 custom_function <- function(data){
   if(!is.vector(data)){
@@ -65,6 +76,7 @@ print(apply(mtcars,2,custom_function))
 
 ## (c)
 
+- dslabs paketinde yer alan na_example veri seti gösterilmiş, ilgili veri setinde yer alan Na değerlerinin sayısı bulunmuştur. Sonrasında ilgili veri setinde yer alan Na değeri 660 olarak güncellenmiş ve yeni bir değişkene bu yeni veri seti atanmıştır. Yeni veri seti yazdırılmış ve bu yeni veri setinde yer alan Na değerlerinin sayısı (sıfır) ile 660 değerlerinin sayısı hesaplanarak yazdırılmıştır. 
 
 ```{r}
 
