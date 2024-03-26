@@ -4,4 +4,9 @@ title: "Welcome to My Analytics Lab"
 ![](assets/images/space.jpeg){fig-align="center"} 
 
 
-Hello!! My name is Muhammet. This is my personal webpage. I'm interested in data analytics. Please stay tuned to follow my works on data analytics, blog posts, and more.
+Hello!! My name is Muhammet.
+
+This is my personal webpage. I'm interested in data analytics. 
+
+
+Please stay tuned to follow my works on data analytics, blog posts, and more.
